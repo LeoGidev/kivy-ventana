@@ -22,6 +22,7 @@ class DividedWindowApp(App):
         # Sección 4: Slider
         slider = Slider(min=0, max=100, value=50, size_hint=(0.5, 0.5))
         layout.add_widget(slider)
+        return layout
 
 
 
