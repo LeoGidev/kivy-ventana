@@ -10,6 +10,9 @@ class DividedWindowApp(App):
     def build(self):
         # Crear un GridLayout para dividir la ventana en 4 partes
         layout = GridLayout(cols=2, rows=2, padding=10, spacing=10)
+        # Sección 1: Botón
+        button = Button(text="Soy un Botón", size_hint=(0.5, 0.5))
+        layout.add_widget(button)
 
 
 
