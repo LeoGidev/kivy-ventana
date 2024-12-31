@@ -7,3 +7,7 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.slider import Slider
 
 class DividedWindowApp(App):
+
+
+
+if __name__ == "__main__":
