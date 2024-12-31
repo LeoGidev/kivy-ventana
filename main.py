@@ -11,3 +11,4 @@ class DividedWindowApp(App):
 
 
 if __name__ == "__main__":
+     DividedWindowApp().run()
