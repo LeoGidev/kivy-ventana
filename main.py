@@ -13,6 +13,9 @@ class DividedWindowApp(App):
         # Sección 1: Botón
         button = Button(text="Soy un Botón", size_hint=(0.5, 0.5))
         layout.add_widget(button)
+        # Sección 2: Etiqueta
+        label = Label(text="Soy una Etiqueta", size_hint=(0.5, 0.5))
+        layout.add_widget(label)
 
 
 
