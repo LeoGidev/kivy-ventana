@@ -16,6 +16,9 @@ class DividedWindowApp(App):
         # Sección 2: Etiqueta
         label = Label(text="Soy una Etiqueta", size_hint=(0.5, 0.5))
         layout.add_widget(label)
+        # Sección 3: Campo de texto
+        text_input = TextInput(hint_text="Escribe algo aquí", size_hint=(0.5, 0.5))
+        layout.add_widget(text_input)
 
 
 
