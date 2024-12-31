@@ -19,6 +19,9 @@ class DividedWindowApp(App):
         # Sección 3: Campo de texto
         text_input = TextInput(hint_text="Escribe algo aquí", size_hint=(0.5, 0.5))
         layout.add_widget(text_input)
+        # Sección 4: Slider
+        slider = Slider(min=0, max=100, value=50, size_hint=(0.5, 0.5))
+        layout.add_widget(slider)
 
 
 
