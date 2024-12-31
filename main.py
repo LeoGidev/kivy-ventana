@@ -8,6 +8,8 @@ from kivy.uix.slider import Slider
 
 class DividedWindowApp(App):
     def build(self):
+        # Crear un GridLayout para dividir la ventana en 4 partes
+        layout = GridLayout(cols=2, rows=2, padding=10, spacing=10)
 
 
 
